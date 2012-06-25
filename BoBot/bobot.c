@@ -248,10 +248,10 @@ void event_channel(irc_session_t* session, const char* event, const char* origin
 void event_topic(irc_session_t * session, const char * event, const char * origin, const char ** params, unsigned int count)
 {
 	if (count > 1) {
-		Com_Printf("IRC: %s Topicchange %s to %s\n", origin, params[0], params[1]);
+		Com_Printf("IRC: %s Topic-change %s to %s\n", origin, params[0], params[1]);
 	}
 	else {
-		Com_Printf("IRC: %s Topicchange on %s\n", origin, params[0]);
+		Com_Printf("IRC: %s Topic-change on %s\n", origin, params[0]);
 	}
 }
 
@@ -260,7 +260,7 @@ void event_topic(irc_session_t * session, const char * event, const char * origi
  */
 void event_nick (irc_session_t * session, const char * event, const char * origin, const char ** params, unsigned int count)
 {
-	Com_Printf("IRC: Nich change!  %s to %s\n", params[0], params[1]);
+	Com_Printf("IRC: Nick change!  %s to %s\n", params[0], params[1]);
 }
 
 /**
