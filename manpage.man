@@ -1,0 +1,25 @@
+"BoBot Irc-Bot" "25.06.2012" "Boris Heier" "DOC"
+
+.SH
+NAME
+IRC BOT
+
+.SH
+SYNTAX
+\fB make zum Installieren \fR
+
+.SH
+Beschreibung
+Der Bot wird im Bot-Ordner kompiliert und lässt sich dann über ./Bot -Optionen ansprechen
+
+.SH
+Optionen
+"s" Server
+"c" Channel
+"u" Username
+"d" Daemon
+"h" Hilfe
+
+.SH
+Autor
+Boris Heier

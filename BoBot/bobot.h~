@@ -1,0 +1,11 @@
+#ifndef IRCBOT_H
+
+void Help();
+
+void ParseOptions(int argc, char** argv);
+
+void Daemonize();
+
+void InitIRC();
+
+#endif
